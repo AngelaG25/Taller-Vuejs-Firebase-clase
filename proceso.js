@@ -13,7 +13,7 @@ class usuario {
             if (name == "angela" && pass == "123") {
                 alert("Bienvenido: " + name);
             } 
-            else alert("Usuario Incorrecto, favor verifique...");
+            else alert("Usuario Incorrecto, verifique...");
         }
 
         validar();
