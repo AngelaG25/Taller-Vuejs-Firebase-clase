@@ -1,26 +1,44 @@
 <!DOCTYPE html>
-	<html lang="es">
-		<head>
-        <title>sistema de login</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="css/Estilo.css">
-        
-		</head>
-		<body>
-      <div class="login-page"></div>
-        <div class="form">
-          <div class="login">
-            <p class="title">Acceso ADCG</p>
-          </div>
-            <input type="text" name="username" id="username" placeholder="username" />
-            <input type="password" name="password" id="password" placeholder="password"/>
-            <button type="button" class="usuario" onclick="newuser.obtener();">
-              login
-            </button>
-            <p class="message">Ejercicio 1 - clase sabado 16 mayo</p>
+<html lang="es" >
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Sistema login ADCG</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+ integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+     <div class="container">
+        <div class="row text-center login-page">
+	   <div class="col-md-12 login-form">			
+	         <div class="row">
+		    <div class="col-md-12 login-form-header">
+		       <p class="login-form-font-header">Acceso<span>ADCG</span><p>
+		    </div>
+		</div>
+		<div class="row">
+		   <div class="col-md-12 login-from-row">
+            <input type="text" name="usuario" id="usuario" placeholder="username" />
+		   </div>
+		</div>
+		<div class="row">
+		   <div class="col-md-12 login-from-row">
+        <input type="text" name="username" id="username" placeholder="username" />
+        <input type="password" name="password" id="password" placeholder="password"/>
+		   </div>
+		</div>
+		<div class="row">
+		   <div class="col-md-12 login-from-row">
+          <button class="btn btn-info" type="button" class="usuario" onclick="newuser.obtener();">
+            login
+          </button>
+		   </div>
         </div>
-      <footer> Copyright 2020 </footer>
+        <footer> Copyright 2020 </footer>
+	</div>
+  </div>
+  </div>
 </body>
     <script type="text/javascript" src="JS/proceso.js"></script>
 </html>
