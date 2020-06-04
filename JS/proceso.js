@@ -21,12 +21,12 @@ class usuario {
              }
                     
             if (name == "angela" && pass == "123") {
-                alert("Bienvenido: " + name);
+                alert("Hola bienvenid@: " + name);
                 document.getElementById("username").value= "";
                 document.getElementById("password").value= "";
                 document.getElementById("username").focus();
             } 
-            else alert("Usuario Incorrecto, verifique...");
+            else alert("Datos Incorrectos, favor verifique...");
         }
 
         validar();
