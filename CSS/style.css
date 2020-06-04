@@ -37,8 +37,8 @@ footer {
 	display: block;
 	padding-top: 50px;
 	text-align: center;
-	color: #ddd;
+	color: #dddd;
 	font-weight: normal;
-	text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+	text-shadow: 0px -1px 0px rgba(0,0,0,9.2);
 	font-size: 0.8em;
 }
